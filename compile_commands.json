@@ -1,0 +1,17 @@
+[
+    {
+        "command": "c++ -c -o output file1.cpp", 
+        "directory": "/home/shas19/nvm_cpp_examples", 
+        "file": "/home/shas19/nvm_cpp_examples/file1.cpp"
+    }, 
+    {
+        "command": "c++ -c -o output2 file2.cpp", 
+        "directory": "/home/shas19/nvm_cpp_examples", 
+        "file": "/home/shas19/nvm_cpp_examples/file2.cpp"
+    }, 
+    {
+        "command": "c++ -c -o output3 file.cpp", 
+        "directory": "/home/shas19/nvm_cpp_examples", 
+        "file": "/home/shas19/nvm_cpp_examples/file.cpp"
+    }
+]
