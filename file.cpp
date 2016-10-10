@@ -5,8 +5,8 @@ output of nvm
 shas19@shaspc:~/build/bin$ ./nvm -fname="print_existing_records" $HOME/nvm_cpp_examples/file.cpp
 DEBUG:Will only analyze/replaces sources in: 
 DEBUG:target_func: print_existing_records @file: file.cpp
-FILE * [fp] vardecl_modified <print_existing_records>:file.cpp:39:5
-person 
+FILE * [fp] vardecl_modified <print_existing_records>:file.cpp:40:5
+class person 
 DEBUG:Will only analyze/replaces sources in: 
 ======================== FINISHED ============================
 Explored Function count = 2
@@ -25,7 +25,8 @@ Total exec time: 0:0:0
 
 #define filename "mydata.out"
 
-struct person{
+class person{
+public:
   int id;
   char name[100];
 };
